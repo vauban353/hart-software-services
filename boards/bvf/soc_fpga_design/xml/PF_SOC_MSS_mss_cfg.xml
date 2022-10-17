@@ -4,7 +4,7 @@
       <design_name>PF_SOC_MSS</design_name>
       <mpfs_part_no>MPFS025T</mpfs_part_no>
       <mpfs_package>FCVG484</mpfs_package>
-      <creation_date_time>10-16-2022_14:53:35</creation_date_time>
+      <creation_date_time>10-17-2022_19:54:58</creation_date_time>
       <xml_format_version>0.6.5</xml_format_version>
     </design_information>
     <mss_memory_map>
@@ -2827,7 +2827,7 @@
             <field Type="RW" name="CFG_WR" offset="0" width="32">0x10</field>
           </register>
           <register address="0x00004068" description="IP Blk = MC_BASE2 Access=RW " name="CFG_WTR">
-            <field Type="RW" name="CFG_WTR" offset="0" width="32">0x8</field>
+            <field Type="RW" name="CFG_WTR" offset="0" width="32">0xA</field>
           </register>
           <register address="0x00004070" description="IP Blk = MC_BASE2 Access=RW " name="CFG_PASR">
             <field Type="RW" name="CFG_PASR" offset="0" width="32">0x0</field>
@@ -2887,7 +2887,7 @@
             <field Type="RW" name="CFG_DLL_DISABLE" offset="0" width="32">0x0</field>
           </register>
           <register address="0x000040CC" description="IP Blk = MC_BASE2 Access=RW " name="CFG_REF_PER">
-            <field Type="RW" name="CFG_REF_PER" offset="0" width="32">0xC34</field>
+            <field Type="RW" name="CFG_REF_PER" offset="0" width="32">0xC30</field>
           </register>
           <register address="0x000040D0" description="IP Blk = MC_BASE2 Access=RW " name="CFG_STARTUP_DELAY">
             <field Type="RW" name="CFG_STARTUP_DELAY" offset="0" width="32">0x27100</field>
@@ -3082,16 +3082,16 @@
             <field Type="RW" name="CFG_MRR" offset="0" width="32">0x8</field>
           </register>
           <register address="0x0000421C" description="IP Blk = MC_BASE2 Access=RW " name="CFG_MRW">
-            <field Type="RW" name="CFG_MRW" offset="0" width="32">0xE</field>
+            <field Type="RW" name="CFG_MRW" offset="0" width="32">0xA</field>
           </register>
           <register address="0x00004220" description="IP Blk = MC_BASE2 Access=RW " name="CFG_ODT_POWERDOWN">
             <field Type="RW" name="CFG_ODT_POWERDOWN" offset="0" width="32">0x00000000</field>
           </register>
           <register address="0x00004224" description="IP Blk = MC_BASE2 Access=RW " name="CFG_WL">
-            <field Type="RW" name="CFG_WL" offset="0" width="32">0x8</field>
+            <field Type="RW" name="CFG_WL" offset="0" width="32">0xE</field>
           </register>
           <register address="0x00004228" description="IP Blk = MC_BASE2 Access=RW " name="CFG_RL">
-            <field Type="RW" name="CFG_RL" offset="0" width="32">0xE</field>
+            <field Type="RW" name="CFG_RL" offset="0" width="32">0x1C</field>
           </register>
           <register address="0x0000422C" description="IP Blk = MC_BASE2 Access=RW " name="CFG_CAL_READ_PERIOD">
             <field Type="RW" name="CFG_CAL_READ_PERIOD" offset="0" width="32">0x0</field>
