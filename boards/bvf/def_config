@@ -114,6 +114,14 @@ CONFIG_SERVICE_WDOG_ENABLE_E51=y
 # Miscellaneous
 #
 CONFIG_USE_PCIE=y
+
+#
+# Enabled PCIe controllers
+#
+CONFIG_ENABLE_PCIE_CTRL_0=y
+# CONFIG_ENABLE_PCIE_CTRL_1 is not set
+# end of Enabled PCIe controllers
+
 CONFIG_UART_SURRENDER=y
 CONFIG_OPENSBI=y
 CONFIG_USE_IHC=y
