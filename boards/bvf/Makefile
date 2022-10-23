@@ -32,6 +32,9 @@
 #
 $(info BV-F selected)
 
+PACKAGE=FCVG484
+DIE=MPFS025T
+
 BINDIR=Default
 TARGET-l2scratch=hss-l2scratch.elf
 TARGET-envm-wrapper=hss-envm-wrapper.elf
